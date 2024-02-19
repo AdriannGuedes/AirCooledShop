@@ -1,0 +1,36 @@
+.header{
+    background-color: #009dff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+@keyframes animacao {
+    25% {color: rgb(255, 255, 255)};
+    25% {color: rgb(129, 129, 129)};
+    25% {color: rgb(46, 46, 46)};
+    25% {color: #000;}
+    
+}
+
+.title {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #000; 
+   animation-name: animacao;
+   animation-duration: 5s;
+   animation-delay: 0.3ms;
+   animation-iteration-count: infinite;
+
+}
+
+
+
+
+
